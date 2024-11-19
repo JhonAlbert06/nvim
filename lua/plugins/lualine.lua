@@ -1,8 +1,12 @@
 return {
     "nvim-lualine/lualine.nvim",
-    require('lualine').setup({
-        config = function()
-            theme = 'palenight'
-        end
-    })
+    config = function()
+        require('lualine').setup({
+            options = {
+                theme = 'palenight',
+                section_separators = '',
+                component_separators = '',
+            },
+        })
+    end
 }
