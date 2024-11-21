@@ -28,4 +28,3 @@ return {
 	{ "hrsh7th/cmp-nvim-lsp" },
 	{ "quangnguyen30192/cmp-nvim-ultisnips" },
 }
-
